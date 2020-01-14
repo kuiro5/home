@@ -9,6 +9,7 @@
     "classnames": "^2.2.6",
     "gatsby": "^2.12.0",
     "gatsby-image": "^2.2.8",
+    "gatsby-plugin-feed": "^2.3.26",
     "gatsby-plugin-netlify": "^2.0.6",
     "gatsby-plugin-netlify-cms": "^3.0.9",
     "gatsby-plugin-purgecss": "^3.0.0",

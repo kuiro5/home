@@ -1,10 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Josh Kuiros',
+    siteUrl: `https://www.kuiros.io`,
     description: 'I\'m a full stack engineer living and working in San Francisco. I enjoy building things using React, Ruby, and Go. When I\'m not coding, you can find me cycling around the Bay Area.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-feed',
     'gatsby-plugin-sass',
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
