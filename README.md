@@ -7,5 +7,5 @@ yarn install
 
 ## Dev
 ```
-yarn run start
+yarn start
 ```
