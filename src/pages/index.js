@@ -8,6 +8,7 @@ import PostsPreview from '../components/PostsPreview';
 import Projects from '../components/Projects';
 import Places from '../components/Places';
 import Talks from '../components/Talks';
+import Photos from '../components/Photos';
 import {
   Section,
   SectionHeading,
@@ -46,9 +47,13 @@ export default class IndexPage extends React.Component {
               <Places />
             </Section>
             <Section>
-              {/* <SectionHeading>Talks</SectionHeading>
-              <Talks /> */}
+              <SectionHeading>Photos</SectionHeading>
+              <Photos />
             </Section>
+            {/* <Section>
+              <SectionHeading>Talks</SectionHeading>
+              <Talks />
+            </Section> */}
           </div>
         </section>
       </Layout>
