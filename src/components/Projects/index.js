@@ -9,7 +9,7 @@ const Projects = () => {
           DataGrail</a>: data compliance as a service
       </ListItem>
       <ListItem>
-        <a href='https://elated-wescoff-9c25f1.netlify.com' target='_blank' rel='noopener noreferrer'>
+        <a href='https://joshplusrach.netlify.com' target='_blank' rel='noopener noreferrer'>
           Wedding Website</a>: info for the big day
       </ListItem>
       <ListItem>
