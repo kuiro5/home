@@ -11,9 +11,9 @@ const fontFamilies = [
 const typography = new Typography({
   baseFontSize: '14px',
   headerFontFamily: fontFamilies,
-  headerColor: 'black',
+  headerColor: 'rgba(0, 0, 0, .90)',
   bodyFontFamily: fontFamilies,
-  bodyColor: 'black',
+  bodyColor: 'rgba(0, 0, 0, .90)',
 })
 
 // Hot reload typography in development.

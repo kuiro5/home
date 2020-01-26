@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby';
 import { StaticQuery, graphql } from "gatsby"
-import Navbar from '../../components/Navbar'
 import './styles.css';
 
 const TemplateWrapper = ({ children, showLinkHome }) => (
@@ -18,7 +17,7 @@ const TemplateWrapper = ({ children, showLinkHome }) => (
         }
     `}
     render={data => (
-      <div style={{ padding: '2rem 1rem' }}>
+      <div style={{ padding: '2rem 1rem', minHeight: '100vh' }}>
         <Helmet>
           <html lang="en" />
           <title>{data.site.siteMetadata.title}</title>
@@ -39,6 +38,10 @@ const TemplateWrapper = ({ children, showLinkHome }) => (
         }}>
         {showLinkHome && <div style={{ marginBottom: '1.5rem' }}><Link to='/'>Josh Kuiros</Link></div>}
         {children}
+        <div style={{ marginTop: 'calc(1.45rem - 1px)' }}>
+          <hr />
+          <div style={{ textAlign: 'right', fontSize: '.8rem' }}><a href='/rss.xml'>RSS</a></div>
+        </div>
       </div>
       </div>
     )}

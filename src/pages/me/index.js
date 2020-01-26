@@ -22,27 +22,29 @@ const Me = ({ data }) => {
         />
       </div>
       <p>
-        I'm a software engineer based in San Francisco who is passionate about building human-centered software and strong engineering cultures.
+       I'm an Engineering Manager living and working in San Francisco. I'm passionate about building human-centered software and strong engineering cultures.
       </p>
       <p>
-        In the past, I've led teams and shipped products at small startups and Fortune 500 companies. I'm currently spending my days as Tech Lead at DataGrail working to improve data privacy for companies and their users.
+        In the past, I've led teams and shipped products at small startups and Fortune 500 companies. I'm currently spending my days managing the Product Engineering team at <a href='https://www.datagrail.io'>DataGrail</a> where we help to improve data privacy for companies and their users.
       </p>
-      <p>
+      <div style={{ marginBottom: '.725rem' }}>
         Outside of code, I spend my time:
-        <ul>
-          <li>Cycling around San Francisco and Marin</li>
-          <li><a href='https://www.goodreads.com/kuiro5' target='_blank' rel='noopener noreferrer'>Reading books</a>, mostly computing, philosophy, cognitive science, and science fiction</li>
-          <li>Hiking, camping, and traveling</li>
-        </ul>
-      </p>
-      <p>
+      </div>
+      <ul>
+        <li>Cycling around San Francisco and Marin</li>
+        <li>Taking <a href='https://www.twitter.com/kuiro5' target='_blank' rel='noopener noreferrer'>photos</a></li>
+        <li><a href='https://www.goodreads.com/kuiro5' target='_blank' rel='noopener noreferrer'>Reading books</a>, mostly computing, philosophy, cognitive science, and science fiction</li>
+        <li>Hiking, camping, and traveling</li>
+      </ul>
+      <div style={{ marginBottom: '.725rem' }}>
         You can find me elsewhere on the internet at:
-        <ul>
-          <li>josh@kuiros.io</li>
-          <li><a href='https://www.twitter.com/kuiro5' target='_blank' rel='noopener noreferrer'>Twitter</a></li>
-          <li><a href='https://www.github.com/kuiro5' target='_blank' rel='noopener noreferrer'>Github</a></li>
-        </ul>
-      </p>
+      </div>
+      <ul>
+        <li>josh@kuiros.io</li>
+        <li><a href='https://www.twitter.com/kuiro5' target='_blank' rel='noopener noreferrer'>Twitter</a></li>
+        <li><a href='https://www.github.com/kuiro5' target='_blank' rel='noopener noreferrer'>Github</a></li>
+        <li><a href='https://www.pinboard.in/u:kuiro5' target='_blank' rel='noopener noreferrer'>Pinboard</a></li>
+      </ul>
     </Layout>
   );
 };

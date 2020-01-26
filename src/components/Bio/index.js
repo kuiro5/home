@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import mePicImgSrc from '../../../static/img/me.png';
+import mePicImgSrc from '../../img/me.png';
 import Img from 'gatsby-image';
 import { Container, BioImg, BioMsg, BioButton } from './styles';
 
@@ -23,9 +23,7 @@ class Bio extends React.Component {
         <div>
           <BioMsg>
             <div>
-              I'm software engineer living and working in San Francisco. I enjoy
-              building things using Ruby, Go, and React. Outside of code, you
-              can find me cycling around the Bay Area.
+              I'm an Engineering Manager living and working in San Francisco. I'm passionate about building human-centered software and strong engineering cultures. Outside of code, you can find me cycling around the Bay Area.
               <BioButton path='/me'>More</BioButton>
             </div>
           </BioMsg>
