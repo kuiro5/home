@@ -67,9 +67,11 @@ const BlogPost = ({ data }) => {
         tags={tags}
         title={title}
       />
-      <hr />
-      <Bio bioImg={file} />
-    </Layout>
+      <div style={{ marginTop: '1rem' }}>
+        <hr />
+        <Bio bioImg={file} />
+    </div>
+  </Layout>
   )
 }
 
