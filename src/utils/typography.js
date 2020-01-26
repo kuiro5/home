@@ -1,10 +1,7 @@
 import Typography from 'typography'
 
 const fontFamilies = [
-  'Consolas',
-  'Liberation Mono',
-  'Menlo',
-  'Courier',
+  'Source Code Pro',
   'monospace',
 ]
 
