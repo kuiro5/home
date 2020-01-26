@@ -9,9 +9,9 @@ const Section = styled.div`
 const SanFrancisco = () => {
   return (
     <Layout>
-      <h1>San Francisco</h1>
+      <h2>San Francisco</h2>
       <Section>
-        <h2>Restaurants</h2>
+        <h3>Restaurants</h3>
         <li>Seven Hills | Italian | Russian Hill</li>
         <li>Al's Place | Vegetarian | Mission</li>
         <li>Burma Superstar | Burmese | Richmond</li>
@@ -41,7 +41,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h2>{'Breweries, Wine, & Bars'}</h2>
+        <h3>{'Breweries, Wine, & Bars'}</h3>
         <li>The Page | Bar | Haight</li>
         <li>Homestead | Bar | Mission</li>
         <li>The Den | Bar | Mission</li>
@@ -59,7 +59,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h2>{'Cafes & Coffee Shops'}</h2>
+        <h3>{'Cafes & Coffee Shops'}</h3>
         <li>111 Minna | Coffee | SOMA</li>
         <li>Four Barrel | Coffee | Mission</li>
         <li>Ritual | Coffee | Hayes Valley</li>
@@ -70,7 +70,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h2>{'Arts, Parks, & Entertainment'}</h2>
+        <h3>{'Arts, Parks, & Entertainment'}</h3>
         <li>Lover’s Lane (Andy Goldsworthy) | Art/Park | Presidio</li>
         <li>De Young | Museum | Sunset</li>
         <li>SFMOMA | Museum | SOMA</li>
@@ -81,7 +81,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h2>{'Hiking, Biking, & Camping'}</h2>
+        <h3>{'Hiking, Biking, & Camping'}</h3>
         <li>Matt Davis-Dipsea Loop | Hiking | Mt. Tam</li>
         <li>Alamere Falls | Hiking | Point Reyes</li>
         <li>Hawk Hill | Biking | Marin Headlands</li>
@@ -91,14 +91,14 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h2>{'Delivery & Take-out'}</h2>
-        <li>Little Dehli | Indian | Tenderloin</li>
+        <h3>{'Delivery & Take-out'}</h3>
+        <li>Little Delhi | Indian | Tenderloin</li>
         <li>Lemongrass | Thai | Russian Hill</li>
         <li>Hahn's Hibachi | Korean | Nob Hill</li>
         <li>Wasabi and Ginger | Sushi | Russian Hill</li>
         <li>Halal Guys | Middle Eastern | Tenderloin</li>
         <li>Wok Shop Cafe | Chinese | Nob Hill</li>
-        <li>Little Boy’s Deli | Deli | Russian Hill</li>
+        <li>The Boy’s Deli | Deli | Russian Hill</li>
       </Section>
     </Layout>
   );

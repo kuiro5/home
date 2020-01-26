@@ -9,7 +9,7 @@ const Posts = (props) => {
 
   return (
     <Layout>
-      <h3>{'Blog'}</h3>
+      <h2>{'Blog'}</h2>
       <PostsList posts={posts} />
     </Layout>
   )

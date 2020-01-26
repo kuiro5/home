@@ -15,7 +15,7 @@ const Me = ({ data }) => {
 
   return (
     <Layout>
-      <h3>About</h3>
+      <h2>About</h2>
       <div style={{ textAlign: 'center' }}>
         <MeImg
           fixed={bioImg.childImageSharp.fixed}
