@@ -32,7 +32,7 @@ const Me = ({ data }) => {
       </div>
       <ul>
         <li>Cycling around San Francisco and Marin</li>
-        <li>Taking <a href='https://www.twitter.com/kuiro5' target='_blank' rel='noopener noreferrer'>photos</a></li>
+        <li>Taking photos</li>
         <li><a href='https://www.goodreads.com/kuiro5' target='_blank' rel='noopener noreferrer'>Reading books</a>, mostly computing, philosophy, cognitive science, and science fiction</li>
         <li>Hiking, camping, and traveling</li>
       </ul>
