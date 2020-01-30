@@ -12,6 +12,7 @@ const SanFrancisco = () => {
       <h2>San Francisco</h2>
       <Section>
         <h3>Restaurants</h3>
+        <li>The House | Asian | North Beach</li>
         <li>Seven Hills | Italian | Russian Hill</li>
         <li>Al's Place | Vegetarian | Mission</li>
         <li>Burma Superstar | Burmese | Richmond</li>
@@ -98,7 +99,7 @@ const SanFrancisco = () => {
         <li>Wasabi and Ginger | Sushi | Russian Hill</li>
         <li>Halal Guys | Middle Eastern | Tenderloin</li>
         <li>Wok Shop Cafe | Chinese | Nob Hill</li>
-        <li>The Boy’s Deli | Deli | Russian Hill</li>
+        <li>The Boys' Deli | Deli | Russian Hill</li>
       </Section>
     </Layout>
   );
