@@ -13,6 +13,10 @@ const Projects = () => {
           Wedding Website</a>: info for the big day
       </ListItem>
       <ListItem>
+        <a href='https://github.com/kuiro5/home' target='_blank' rel='noopener noreferrer'>
+          Home</a>: code for this website
+      </ListItem>
+      <ListItem>
         <a href='https://www.marketo.com/software/marketo-sales-connect' target='_blank' rel='noopener noreferrer'>
           ToutApp</a>: workflow tool for sales teams
       </ListItem>
