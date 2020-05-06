@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import Layout from '../../../components/Layout'
+import React from "react";
+import styled from "styled-components";
+import Layout from "../../../components/Layout";
 
 const Section = styled.div`
   margin-bottom: 2rem;
@@ -42,12 +42,12 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h3>{'Breweries, Wine, & Bars'}</h3>
+        <h3>{"Breweries, Wine, & Bars"}</h3>
         <li>The Page | Bar | Haight</li>
         <li>Homestead | Bar | Mission</li>
         <li>The Den | Bar | Mission</li>
         <li>Zam Zam | Bar | Haight</li>
-        <li>El Rio | Bar |  Mission</li>
+        <li>El Rio | Bar | Mission</li>
         <li>Hi-Lo Club | Bar | Russian Hill</li>
         <li>Vesuvio | Bar | North Beach</li>
         <li>Wish | Bar | SOMA</li>
@@ -60,7 +60,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h3>{'Cafes & Coffee Shops'}</h3>
+        <h3>{"Cafes & Coffee Shops"}</h3>
         <li>111 Minna | Coffee | SOMA</li>
         <li>Four Barrel | Coffee | Mission</li>
         <li>Ritual | Coffee | Hayes Valley</li>
@@ -71,7 +71,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h3>{'Arts, Parks, & Entertainment'}</h3>
+        <h3>{"Arts, Parks, & Entertainment"}</h3>
         <li>Lover’s Lane (Andy Goldsworthy) | Art/Park | Presidio</li>
         <li>De Young | Museum | Sunset</li>
         <li>SFMOMA | Museum | SOMA</li>
@@ -82,7 +82,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h3>{'Hiking, Biking, & Camping'}</h3>
+        <h3>{"Hiking, Biking, & Camping"}</h3>
         <li>Matt Davis-Dipsea Loop | Hiking | Mt. Tam</li>
         <li>Alamere Falls | Hiking | Point Reyes</li>
         <li>Hawk Hill | Biking | Marin Headlands</li>
@@ -92,7 +92,7 @@ const SanFrancisco = () => {
       </Section>
 
       <Section>
-        <h3>{'Delivery & Take-out'}</h3>
+        <h3>{"Delivery & Take-out"}</h3>
         <li>Little Delhi | Indian | Tenderloin</li>
         <li>Lemongrass | Thai | Russian Hill</li>
         <li>Hahn's Hibachi | Korean | Nob Hill</li>
