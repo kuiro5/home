@@ -13,7 +13,15 @@ const typography = new Typography({
       name: fontFamilies[0],
       styles: ["400", "400i", "700", "700i"]
     }
-  ]
+  ],
+  overrideStyles: ({ rhythm }) => ({
+    img: {
+      marginBottom: 0
+    },
+    li: {
+      marginBottom: ".5rem"
+    }
+  })
 });
 
 // Hot reload typography in development.
