@@ -10,6 +10,7 @@ export const Inner = styled.div`
   min-height: 100vh;
   max-width: 35rem;
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: space-between;
 `;
