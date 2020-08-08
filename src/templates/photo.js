@@ -1,9 +1,39 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Photo from "../components/Photo";
+import Layout from "../components/Layout";
+import styled from "styled-components";
+
+const Title = styled.h1`
+  text-transform: capitalize;
+`;
 
 const PhotoTemplate = props => {
-  console.log(props);
-  return <h1>hello, world</h1>;
+  const {
+    data: {
+      allS3ImageAsset: { edges }
+    },
+    path
+  } = props;
+  const title = path
+    .split("/")
+    .pop()
+    .replace("-", " ");
+
+  return (
+    <Layout>
+      <Title>{title}</Title>
+      {edges.map(
+        ({
+          node: {
+            childImageSharp: { largeSizes }
+          }
+        }) => {
+          return <Photo fluid={largeSizes} />;
+        }
+      )}
+    </Layout>
+  );
 };
 
 export const pageQuery = graphql`
@@ -13,6 +43,30 @@ export const pageQuery = graphql`
         node {
           id
           Key
+          EXIF {
+            DateCreatedISO
+            ExposureTime
+            FNumber
+            ShutterSpeedValue
+          }
+          childImageSharp {
+            original {
+              height
+              width
+            }
+            thumbnailSizes: fluid(maxWidth: 256) {
+              aspectRatio
+              src
+              srcSet
+              sizes
+            }
+            largeSizes: fluid(maxWidth: 1024) {
+              aspectRatio
+              src
+              srcSet
+              sizes
+            }
+          }
         }
       }
     }

@@ -8,7 +8,7 @@ export const Outer = styled.div`
 export const Inner = styled.div`
   padding: 2rem 1rem;
   min-height: 100vh;
-  max-width: 35rem;
+  max-width: 600px;
   display: flex;
   flex: 1;
   flex-direction: column;

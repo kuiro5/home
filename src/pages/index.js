@@ -7,6 +7,7 @@ import Greeting from "../components/Greeting";
 import PostsPreview from "../components/PostsPreview";
 import Projects from "../components/Projects";
 import Places from "../components/Places";
+import Photos from "../components/Photos";
 import Talks from "../components/Talks";
 import {
   Section,
@@ -19,6 +20,7 @@ require("prismjs/themes/prism.css");
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props;
+    console.log(this.props);
     const {
       allMarkdownRemark: { edges: posts },
       file
@@ -48,6 +50,10 @@ export default class IndexPage extends React.Component {
           <Section>
             <SectionHeading>Places</SectionHeading>
             <Places />
+          </Section>
+          <Section>
+            <SectionHeading>Photos</SectionHeading>
+            <Photos />
           </Section>
           {/* <Section>
               <SectionHeading>Talks</SectionHeading>

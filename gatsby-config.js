@@ -44,7 +44,6 @@ module.exports = {
       resolve: "gatsby-source-s3-image",
       options: {
         bucketName: "kuiros-io-photos",
-        protocol: "https",
         region: "us-west-2"
       }
     },

@@ -59,7 +59,7 @@ exports.createPages = ({ actions, graphql }) => {
     ];
     keys.forEach(key => {
       createPage({
-        path: key,
+        path: `/photos/${key}`,
         component: path.resolve("src/templates/photo.js"),
         context: {
           keyRegex: `/${key}\//`
