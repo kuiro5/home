@@ -40,6 +40,14 @@ module.exports = {
         pathToConfigModule: "src/utils/typography"
       }
     },
+    {
+      resolve: "gatsby-source-s3-image",
+      options: {
+        bucketName: "kuiros-io-photos",
+        protocol: "https",
+        region: "us-west-2"
+      }
+    },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-purgecss", // must be after other CSS plugins
     "gatsby-plugin-netlify" // make sure to keep it last in the array
