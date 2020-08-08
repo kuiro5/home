@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: post
 title: Best Way to Set up Ctags with Neovim and Vim 8
 date: 2017-11-05T05:56:00.000Z
 tags:

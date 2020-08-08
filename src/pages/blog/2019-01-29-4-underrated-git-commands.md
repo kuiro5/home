@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: post
 title: 4 Underrated Git Commands
 date: 2017-10-26T05:53:00.000Z
 tags:

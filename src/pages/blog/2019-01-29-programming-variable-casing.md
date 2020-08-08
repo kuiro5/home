@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: post
 title: Programming Variable Casing
 date: 2017-12-08T07:03:00.000Z
 tags:

@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: post
 title: Composing OR Queries in Rails 5.x
 date: 2018-11-13T06:34:07.647Z
 tags:
