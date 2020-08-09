@@ -1,3 +1,9 @@
+const AWS = require("aws-sdk");
+AWS.config.update({
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  secretAccessKey: process.env.SECRET_KEY_ID
+});
+
 module.exports = {
   siteMetadata: {
     title: "Josh Kuiros",
