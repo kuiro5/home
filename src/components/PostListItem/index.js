@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
-import { ListItem, Date } from "./styles";
+import { Link, ListItem, Date } from "./styles";
 
 const PostListItem = ({ date, title, to }) => {
   return (

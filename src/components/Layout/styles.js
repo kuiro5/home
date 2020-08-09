@@ -6,6 +6,7 @@ export const Outer = styled.div`
 `;
 
 export const Inner = styled.div`
+  width: 100%;
   padding: 2rem 1rem;
   min-height: 100vh;
   max-width: 600px;

@@ -14,6 +14,9 @@ const Photos = () => {
       <ListItem>
         <Link to="/photos/mendocino">Mendocino</Link>
       </ListItem>
+      <ListItem>
+        <Link to="/photos/sea-ranch">Sea Ranch</Link>
+      </ListItem>
     </div>
   );
 };

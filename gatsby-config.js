@@ -50,7 +50,14 @@ module.exports = {
       resolve: "gatsby-source-s3-image",
       options: {
         bucketName: "kuiros-io-photos",
-        region: "us-west-2"
+        region: "us-west-2",
+        protocol: "https"
+      }
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: `${__dirname}/src/img/icon3.png`
       }
     },
     "gatsby-plugin-styled-components",
