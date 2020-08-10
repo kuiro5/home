@@ -4,7 +4,7 @@ import Photo from "../components/Photo";
 import Layout from "../components/Layout";
 import styled from "styled-components";
 
-const Title = styled.h1`
+const Title = styled.h2`
   text-transform: capitalize;
 `;
 

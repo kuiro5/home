@@ -28,5 +28,3 @@ This command checks your local branches (excluding master — more exclusions ca
 This command has saved me many, many times. Reflog tracks all changes in your local repository and gives you a reference point to revert back to. For example, git reset — hard HEAD@{0}.
 
     git reflog
-
-_Happy Coding_ 😊⚡️💻
