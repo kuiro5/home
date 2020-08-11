@@ -15,7 +15,7 @@ import {
   SectionHeadingButton,
   SectionHeadingButtonContainer
 } from "../styles";
-require("prismjs/themes/prism-okaidia.css");
+import "./prism.css";
 
 export default class IndexPage extends React.Component {
   render() {

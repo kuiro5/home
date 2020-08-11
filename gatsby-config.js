@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: `${__dirname}/src/img/icon3.png`
+        icon: `${__dirname}/src/img/icon-wide.png`
       }
     },
     "gatsby-plugin-styled-components",

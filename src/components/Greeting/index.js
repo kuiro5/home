@@ -1,5 +1,5 @@
-import React from 'react';
-import { Wrapper, Wave } from './styles';
+import React from "react";
+import { Wrapper, Wave } from "./styles";
 
 const Greeting = () => {
   return (
