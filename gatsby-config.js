@@ -57,11 +57,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: `${__dirname}/src/img/icon-wide.png`
+        icon: `${__dirname}/src/img/icon-new.png`
       }
     },
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-purgecss", // must be after other CSS plugins
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
 };

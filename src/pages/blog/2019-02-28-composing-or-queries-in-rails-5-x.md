@@ -7,12 +7,13 @@ tags:
 ---
 Rails 5 introduced the #or method to ActiveRecord::Relation. Combining ActiveRecord::Relation#or with lazy evaluation, you can compose dynamic OR queries that are pure ActiveRecord and protected from SQL injection:
 
-```
+```ruby
 bikes = [
   { kind: 'unicycle', color: 'blue' },
   { kind: 'road', color: 'white' },
   { kind: 'mountain', color: 'green' }
 ]
+
 bikes.map do |bike|
   Bike.where(kind: bike.kind, color: bike.color)
 end.reduce(&:or)
@@ -21,7 +22,7 @@ end.reduce(&:or)
 <br>
 Produces an Active Record query like:
 
-``
+```ruby
 Bike
   .where(kind: 'unicycle', color: 'blue)
   .or(Bike.where(kind: 'road', color: 'white'))
@@ -30,7 +31,7 @@ Bike
 <br>
 Produces 1 SQL query like:
 
-```
+```ruby
 SELECT *
 FROM bikes
 WHERE (kind = 'unicycle' AND color = 'blue')
