@@ -1,6 +1,6 @@
 import Typography from "typography";
 
-const fontFamilies = ["Ubuntu Mono", "monospace"];
+const fontFamilies = ["IBM Plex Mono", "monospace"];
 
 const typography = new Typography({
   baseFontSize: "16px",
