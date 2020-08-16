@@ -2,7 +2,7 @@ import React from "react";
 import Emojis from "react-emoji-component";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
-import { Inner, Outer, Footer } from "./styles";
+import { Inner, Outer, Footer, Home } from "./styles";
 import Divider from "../Divider";
 import SEO from "../SEO";
 import "normalize.css";
@@ -26,9 +26,9 @@ const TemplateWrapper = ({ children, showLinkHome }) => (
         <Inner>
           <div>
             {showLinkHome && (
-              <div style={{ marginBottom: "1.5rem" }}>
+              <Home>
                 <Link to="/">⇠ Home</Link>
-              </div>
+              </Home>
             )}
             {children}
           </div>

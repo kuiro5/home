@@ -6,6 +6,16 @@ const Projects = () => {
     <div>
       <ListItem>
         <a
+          href="https://www.heyoutline.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Outline
+        </a>
+        : Customer operating system
+      </ListItem>
+      <ListItem>
+        <a
           href="https://www.datagrail.io"
           target="_blank"
           rel="noopener noreferrer"

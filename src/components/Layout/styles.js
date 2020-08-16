@@ -21,3 +21,7 @@ export const Footer = styled.div`
   justify-content: space-between;
   font-size: 0.75rem;
 `;
+
+export const Home = styled.div`
+  margin-bottom: 1.5rem;
+`;

@@ -1,6 +1,6 @@
-import styled from 'styled-components';
-import LinkButton from '../LinkButton';
-import Img from 'gatsby-image';
+import styled from "styled-components";
+import LinkButton from "../LinkButton";
+import Img from "gatsby-image";
 
 export const Container = styled.div`
   display: flex;
@@ -9,10 +9,10 @@ export const Container = styled.div`
 
 export const BioImg = styled(Img)`
   border-radius: 50px;
-  width: 100px;
-  margin-right: .8rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  margin-right: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   margin-bottom: 0rem;
+  flex-shrink: 0;
 `;
 
 export const BioMsg = styled.div`
@@ -21,6 +21,6 @@ export const BioMsg = styled.div`
 `;
 
 export const BioButton = styled(LinkButton)`
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   display: inline;
 `;

@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Layout from "../../components/Layout";
-import PostsList from "../../components/Posts";
 import PostsPreview from "../../components/PostsPreview";
 import { Link, graphql } from "gatsby";
 
