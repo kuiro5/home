@@ -1,6 +1,6 @@
 import Typography from "typography";
 
-const fontFamilies = ["Lora", "serif"];
+const fontFamilies = ["Spectral", "serif"];
 
 const typography = new Typography({
   baseFontSize: "16px",
