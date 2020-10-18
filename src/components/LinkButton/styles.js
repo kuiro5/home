@@ -6,6 +6,7 @@ export const Container = styled.div`
   border-radius: 3px;
   padding: 3px 6px;
   font-size: 0.5rem;
+  font-family: sans-serif;
 
   &:hover {
     color: blue;

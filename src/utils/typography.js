@@ -1,11 +1,12 @@
 import Typography from "typography";
 
-const fontFamilies = ["IBM Plex Mono", "monospace"];
+const fontFamilies = ["Lora", "serif"];
 
 const typography = new Typography({
   baseFontSize: "16px",
   headerFontFamily: fontFamilies,
   headerColor: "rgba(0, 0, 0, .90)",
+  headerWeight: "normal",
   bodyFontFamily: fontFamilies,
   bodyColor: "rgba(0, 0, 0, .90)",
   googleFonts: [
@@ -15,6 +16,9 @@ const typography = new Typography({
     }
   ],
   overrideStyles: ({ rhythm }) => ({
+    "h1,h2,h3,h4,h5": {
+      fontStyle: "italic"
+    },
     img: {
       marginBottom: 0
     },

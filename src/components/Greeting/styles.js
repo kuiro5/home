@@ -1,9 +1,9 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes } from "styled-components";
 
 export const Wrapper = styled.div`
   font-size: 2rem;
-  font-weight: bold;
   padding: 1rem 0rem;
+  font-style: italic;
 `;
 
 const waveAnimation = keyframes`
@@ -31,4 +31,3 @@ export const Wave = styled.div`
     transform-origin: 70% 70%;
   }
 `;
-
