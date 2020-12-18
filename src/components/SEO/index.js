@@ -15,6 +15,11 @@ const SEO = ({ data }) => {
       <meta property="og:title" content={data.site.siteMetadata.title} />
       <meta property="og:url" content="/" />
       <meta property="og:image" content="/img/og-image.jpg" />
+      <script
+        defer
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "50336a6ac46f42f6bedd70af588973fe"}'
+      ></script>
     </Helmet>
   );
 };
