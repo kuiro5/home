@@ -13,7 +13,7 @@ import {
   Section,
   SectionHeading,
   SectionHeadingButton,
-  SectionHeadingButtonContainer
+  SectionHeadingButtonContainer,
 } from "../styles";
 
 export default class IndexPage extends React.Component {
@@ -21,7 +21,7 @@ export default class IndexPage extends React.Component {
     const { data } = this.props;
     const {
       allMarkdownRemark: { edges: posts },
-      file
+      file,
     } = data;
 
     return (
@@ -29,13 +29,13 @@ export default class IndexPage extends React.Component {
         <div style={{ marginBottom: "2rem" }}>
           <Greeting />
           <Bio bioImg={file} />
-          <Section>
+          {/*<Section>
             <SectionHeadingButtonContainer>
               <SectionHeading>Words</SectionHeading>
               <SectionHeadingButton path="/words">All</SectionHeadingButton>
             </SectionHeadingButtonContainer>
             <PostsPreview posts={posts.slice(0, 3)} />
-          </Section>
+          </Section>*/}
           <Section>
             <SectionHeadingButtonContainer>
               <SectionHeading>Code</SectionHeading>
@@ -66,9 +66,9 @@ export default class IndexPage extends React.Component {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array
-    })
-  })
+      edges: PropTypes.array,
+    }),
+  }),
 };
 
 export const pageQuery = graphql`

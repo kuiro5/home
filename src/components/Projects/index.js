@@ -12,7 +12,7 @@ const Projects = () => {
         >
           Outline
         </a>
-        : Customer operating system
+        : Community operating system
       </ListItem>
       <ListItem>
         <a
@@ -30,7 +30,7 @@ const Projects = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Wedding Website
+          Wedding
         </a>
         : Info for the big day
       </ListItem>
