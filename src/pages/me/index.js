@@ -19,39 +19,59 @@ const Me = ({ data }) => {
       <div style={{ textAlign: "center" }}>
         <MeImg fixed={bioImg.childImageSharp.fixed} />
       </div>
+      <h3>Hi, I'm Josh.</h3>
       <p>
-        I'm the CTO of Outline, and I'm currently based in San Francisco. I'm
-        passionate about building human-centered software and strong engineering
-        cultures.
+        I believe in making tools that improve the way people work and create.
       </p>
       <p>
-        In the past, I've led teams and shipped products at small startups and
-        Fortune 500 companies. I'm currently spending my days building the
-        product at Outline.
+        I grew up in The Steel City, Pittsburgh, PA. My parents owned a local
+        candy shop growing up. They were gracious enough to let me help them
+        with their website; my first foray into entrepreneurship and
+        “programming.”
       </p>
-      <div style={{ marginBottom: ".725rem" }}>
-        Outside of code, I spend my time:
-      </div>
-      <ul>
-        <li>Cycling around San Francisco and Marin</li>
-        <li>Taking photos</li>
-        <li>
-          <a
-            href="https://www.goodreads.com/kuiro5"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Reading books
-          </a>
-          , mostly computing, philosophy, cognitive science, and science fiction
-        </li>
-        <li>Hiking, camping, and traveling</li>
-      </ul>
+      <p>
+        I went on to study Computer Engineering and Spanish at Penn State. I
+        took a class on iOS development that dropped me down the rabbit hold of
+        application development, ultimately discovering The Web along the way.
+      </p>
+      <p>
+        After graduation, I headed out west to the Bay Area to work at Cisco. I
+        landed in an organization that was comprised of prior startup
+        acquisitions. We worked on the next generation of Webex, now Webex
+        Teams. I learned a lot about Silicon Valley engineering culture and
+        developing software at scale.
+      </p>
+      <p>
+        Surrendering to the startup itch, I went on to work at ToutApp at the
+        time they were 30 people and had just raised a Series B from investors
+        like a16z. We shipped a lot of products and helped shape the now $3B
+        sales software category. I spent a few years leading one of the
+        engineering teams before ultimately being acquired by Marketo.
+      </p>
+      <p>
+        After a year of integrating ToutApp and Marketo and launching publicly,
+        I took a short period of time off to sleep, cycle, read figure out what
+        was next.
+      </p>
+      <p>
+        Deciding I wanted to downsize, I joined the founding team at DataGrail.
+        I went on to manage the engineering team, where we implemented some of
+        the earliest software to automate data privacy regulations like GDPR and
+        CCPA.
+      </p>
+      <p>
+        I’m now spending my days as CTO and Co-founder of Outline, where we're
+        helping teams capture and quantify the voice of their customers in order
+        to build better relationships, make better business decisions, and build
+        better products.
+      </p>
+      <p></p>
+      <p></p>
       <div style={{ marginBottom: ".725rem" }}>
         You can find me elsewhere on the internet at:
       </div>
       <ul>
-        <li>josh@kuiros.io</li>
+        <li>josh [at] kuiros [dot] io</li>
         <li>
           <a
             href="https://www.twitter.com/kuiro5"

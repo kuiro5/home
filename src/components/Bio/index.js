@@ -19,6 +19,7 @@ const Bio = ({ bioImg, showName }) => {
             building human-centered software and strong engineering teams.
             Outside of code, you can find me cycling around the Bay Area.
             <BioButton path="/me">More</BioButton>
+            <BioButton path="/now">Now</BioButton>
           </div>
         </BioMsg>
       </div>
